@@ -11,25 +11,42 @@
 
 ## Group Rules
 
+- Use designated communication channels (Slack, Signal, Whatsapp) for project-related discussions.
+- Respond to messages within a specified timeframe to maintain timely communication.
+- Respect time zone differences and personal commitments when scheduling meetings or expecting responses.
+- Join virtual meetings on time, and inform the group if there are delays.
+- Avoid multitasking during virtual meetings to ensure full engagement.
+- Clearly communicate roles and responsibilities for each team member.
+- Assign tasks based on individual strengths and expertise.
+- Foster a sense of accountability by regularly checking in on task progress.
+- Maintain a centralized repository for easy access to shared resources and documentation.
+- Foster a supportive environment for sharing ideas, asking questions, and suggesting improvements.
+- Ensure all team members are familiar with and proficient in using the designated technology and collaboration tools.
+- Provide training sessions as needed to enhance tech literacy within the team.
+- Emphasize the importance of meeting deadlines to ensure the overall success of the project.
+- Cultivate a culture of accountability, with prompt completion of assigned tasks.
+
 <!-- any general rules you'd like to set for your group? -->
 
 ---
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion |
-| --- | :-: | ----------------------- |
-|     |     |                         |
+| Day      |  How   | The topic of discussion |
+| -------- | :----: | ----------------------- |
+| 13 Jan   | Signal | Initial Meeting         |
+| Saturday | Signal | Work on project         |
 
 ## Communication Channels
 
 how often will we get in touch on each channel, and what we will discuss there:
 
-- **Issues**:
-- **Pull Requests**:
-- **GitHub Discussions**
-- **Slack/Discord**:
-- **Video Calls**:
+- **Issues**: Daily
+- **Pull Requests**: Daily
+- **GitHub Discussions**: Seldom
+- **Slack/Discord**: Often
+- **Signal**: Always
+- **Video Calls**: 2 - 3 times / week
 
 ---
 
@@ -37,17 +54,15 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 ### Availability for calling/messaging
 
-| Day    | Monday  | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday  |
-| ------ | :-----: | :-----: | :-------: | :------: | :-----: | :------: | :-----: |
-| _name_ | 13 - 20 | 13 - 20 |  13 - 20  | 13 - 20  | 13 - 20 | 13 - 20  | 13 - 20 |
+| Day                  | Monday | Tuesday | Wednesday | Thursday | Friday  |   Saturday    |    Sunday     |
+| -------------------- | :----: | :-----: | :-------: | :------: | :-----: | :-----------: | :-----------: |
+| _Nilofar Ahmadi AFT_ | 9 - 17 | 9 - 17  |  9 - 17   |  9 - 17  | 10 - 23 |    9 - 17     |    9 - 17     |
+| _Nasrin Ahmadi CET_  | 9 - 14 | 9 - 14  |  9 - 14   |  9 - 14  | 9 - 14  | Not Available | Not Available |
 
 ### How many hours everyone has per day:
 
-- name: _5h_; extra comments?
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- Niloufar Ahmadi: _3-4 h_; More available on Fridays.
+- Nasrin Ahmadi: _2h_; More available on Weekdays.
 
 ## Asking for Help
 
