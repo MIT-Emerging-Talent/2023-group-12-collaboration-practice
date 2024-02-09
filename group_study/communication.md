@@ -17,9 +17,9 @@
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion |
-| --- | :-: | ----------------------- |
-|     |     |                         |
+| Day    | How   | The topic of discussion |
+| Friday | Signal| GitHub Acounts Setup    |
+|        | Signal| Project Selection       |
 
 ## Communication Channels
 
