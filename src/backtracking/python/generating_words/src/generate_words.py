@@ -1,38 +1,30 @@
 def generate_words(board, word_dict):
-    if not board:
-        return tuple()
+    def dfs(i, j, current_word):
+        if i < 0 or i >= rows or j < 0 or j >= cols or visited[i][j]:
+            return
 
-    def neighbors(x, y):
-        for dx in (-1, 0, 1):
-            for dy in (-1, 0, 1):
-                if dx == dy == 0:
-                    continue
-                if 0 <= x + dx < n and 0 <= y + dy < m:
-                    yield x + dx, y + dy
+        current_word += board[i][j]
 
-    def pair_to_key(pair):
-        return f"{pair[0]}, {pair[1]}"
+        if current_word in word_dict:
+            generated_words.add(current_word)
 
-    # DFS implementation
-    def generate_words(i, j, word="", used=dict()):
-        used[pair_to_key((i, j))] = True
-        word += board[i][j]
+        visited[i][j] = True
 
-        if word in word_dict and word not in generated_words:
-            generated_words.add(word)
+        for x in range(-1, 2):
+            for y in range(-1, 2):
+                dfs(i + x, j + y, current_word)
 
-        for x, y in neighbors(i, j):
-            key = pair_to_key((x, y))
-            if key not in used or not used[key]:
-                generate_words(x, y, word, used)
+        visited[i][j] = False
 
-        used[pair_to_key((i, j))] = False
+    if not board or not board[0] or not word_dict:
+        return []
 
+    rows, cols = len(board), len(board[0])
+    visited = [[False] * cols for _ in range(rows)]
     generated_words = set()
-    n, m = len(board), len(board[0])
 
-    for i in range(n):
-        for j in range(m):
-            generate_words(i, j)
+    for i in range(rows):
+        for j in range(cols):
+            dfs(i, j, "")
 
-    return tuple(generated_words)
+    return list(generated_words)
